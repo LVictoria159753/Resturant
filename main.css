@@ -10,9 +10,10 @@ section{
 }
 
 #first{
-    background-image: url(fruitbowl.png), url(pie.png);
+    background-image:url(https://i.postimg.cc/BZjy3nfj/FLSAh1-LXo-AE-EBs.jpg);
     background-repeat: no-repeat;
-    background-position: 100% 0%, 0% 100%;
+    background-position:  0%, 0% ;
+    background-size: cover;
 }
 
 #firstul{
@@ -44,8 +45,14 @@ margin-left: 40px;
     flex-direction: row;
     justify-content: end;
     align-items: center;
+    background-image: url(https://i.postimg.cc/7YTtbQWN/section2.jpg);
+    background-repeat: no-repeat;
+    background-position:  0%, 0% ;
+    background-size: cover;
     
 }
+
+
 #second p{
     display:flex;
     flex-wrap: wrap;
@@ -59,6 +66,14 @@ h2{
     font-size: 3rem;
 }
 
+
+#section2{
+    background-image: url(https://i.ibb.co/k8m1fHS/first-bg.png);
+    background-repeat: no-repeat;
+    background-position:  0%, 0% ;
+    background-size: cover;
+
+}
 
 #secondul, h2, span{
     text-decoration: none;
@@ -99,6 +114,7 @@ li{
     display:flex;
     flex-direction: row;
     justify-content: center;
+   
 }
 h6,h4{
     font-size: 1.5rem;
