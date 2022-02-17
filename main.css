@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+section{
+    border: 1px solid black;
+    width:100%;
+    height:500px;
+}
+
+#first{
+    background-image: url(fruitbowl.png), url(pie.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%, 0% 100%;
+}
+
+#firstul{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+    gap:20px;
+    padding:10px;
+}
+
+h1{
+   font-size: 40px;
+   padding: 40px;
+}
+
+#search{
+   padding:40px;
+}
+
+.icon{
+margin-left: 40px;
+}
+
+
+#second{
+    display:flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    
+}
+#second p{
+    display:flex;
+    flex-wrap: wrap;
+    width:50%
+}
+#wrap{
+    width: 50%;
+    border:1px solid red
+}
+h2{
+    font-size: 3rem;
+}
+
+
+#secondul, h2, span{
+    text-decoration: none;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:10px;
+
+}
+
+a{
+    text-decoration:none;  
+}
+li{
+    padding:10px;
+    color:black
+}
+#Moo{
+
+    border: 1px solid green;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.class{
+
+        border: 1px solid black;
+        width:100%;
+        height:1000px;
+}
+
+
+
+.pg p, .pg h4, .pg img caption, h6{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h6,h4{
+    font-size: 1.5rem;
+}
+
+.para{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:3rem;
+}
+
