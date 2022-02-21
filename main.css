@@ -147,3 +147,9 @@ h6,h4{
     display:flex;
 
 }
+
+h1{
+
+        white-space: pre;
+
+}
