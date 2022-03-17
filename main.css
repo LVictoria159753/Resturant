@@ -139,14 +139,14 @@ h6,h4{
 
 .reviewguy{
     width:10%;
+
     border-radius: 50%;
     height:170px;
-   margin-left: 630px;
 
 }
-.hatguy{
+#hatguy{
     display:flex;
-
+    justify-content: center;
 }
 
 h1{
