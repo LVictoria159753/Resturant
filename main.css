@@ -147,10 +147,10 @@ h6,h4{
 #hatguy{
     display:flex;
     justify-content: center;
+    background-color: greenyellow;
 }
 
 h1{
 
         white-space: pre;
-
 }
